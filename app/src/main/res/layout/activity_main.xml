@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/WhiteOrang"
+    tools:context=".MainActivity"
+    android:id="@+id/main">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Orang"
+            android:padding="10dp"
+            android:text="Gra w kości. Autor: Kondziux"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/runbutton"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/buttonOrang"
+            android:text="Rzuć kośćmi!"
+            app:cornerRadius="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/kosc0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/none" />
+
+            <ImageView
+                android:id="@+id/kosc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/none" />
+
+            <ImageView
+                android:id="@+id/kosc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/none" />
+
+            <ImageView
+                android:id="@+id/kosc3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/none" />
+
+            <ImageView
+                android:id="@+id/kosc4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/none" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/wyniklos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wynik tego losowania: " />
+
+        <TextView
+            android:id="@+id/wynikgry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wynik gry: " />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/buttonOrang"
+            android:text="Resetuj Wynik"
+            app:cornerRadius="10dp" />
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
