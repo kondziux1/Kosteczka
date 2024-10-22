@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:background="#f5f3dc"
+    android:background="#f5f3da"
     tools:context=".MainActivity">
 
 
@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#FFFFFF"
-            android:text="Gra w kości. Autor: xxxxx"
+            android:text="Gra w kości. Autor: Stencel"
             android:textSize="20dp"
             android:padding="10dp"
             android:background="#A52A2A"
